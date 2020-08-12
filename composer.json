@@ -1,0 +1,14 @@
+{
+	"name": "rfay/composer-ddev-solr",
+	"type": "ddev-template",
+	"license": "apache2",
+	"autoload": {
+		"psr-0": {"KayStrobach\\ComposerDdev": "src/"}
+	},
+	"extra": {
+		"class": "KayStrobach\\ComposerDdev\\InstallerPlugin"
+	},
+	"require": {
+		"kaystrobach/composer-ddev": "*"
+	}
+}
